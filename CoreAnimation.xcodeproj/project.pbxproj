@@ -12,6 +12,8 @@
 		862815681DB38DA900212702 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 862815661DB38DA900212702 /* Main.storyboard */; };
 		8628156A1DB38DA900212702 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 862815691DB38DA900212702 /* Assets.xcassets */; };
 		8628156D1DB38DA900212702 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8628156B1DB38DA900212702 /* LaunchScreen.storyboard */; };
+		862815751DB38DFB00212702 /* ShakingTextField.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862815741DB38DFB00212702 /* ShakingTextField.swift */; };
+		862815771DB3913000212702 /* Pulsing.swift in Sources */ = {isa = PBXBuildFile; fileRef = 862815761DB3913000212702 /* Pulsing.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +24,8 @@
 		862815691DB38DA900212702 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8628156C1DB38DA900212702 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8628156E1DB38DA900212702 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		862815741DB38DFB00212702 /* ShakingTextField.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ShakingTextField.swift; sourceTree = "<group>"; };
+		862815761DB3913000212702 /* Pulsing.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Pulsing.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +60,8 @@
 			children = (
 				862815621DB38DA900212702 /* AppDelegate.swift */,
 				862815641DB38DA900212702 /* ViewController.swift */,
+				862815741DB38DFB00212702 /* ShakingTextField.swift */,
+				862815761DB3913000212702 /* Pulsing.swift */,
 				862815661DB38DA900212702 /* Main.storyboard */,
 				862815691DB38DA900212702 /* Assets.xcassets */,
 				8628156B1DB38DA900212702 /* LaunchScreen.storyboard */,
@@ -137,6 +143,8 @@
 			buildActionMask = 2147483647;
 			files = (
 				862815651DB38DA900212702 /* ViewController.swift in Sources */,
+				862815751DB38DFB00212702 /* ShakingTextField.swift in Sources */,
+				862815771DB3913000212702 /* Pulsing.swift in Sources */,
 				862815631DB38DA900212702 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
